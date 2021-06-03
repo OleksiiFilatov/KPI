@@ -14,4 +14,4 @@
 10. Створити необхідні запити та тести у Postman, впевнитись у коректній роботі серверного API.
 11. Підготувати звіт, створити репозиторій та завантажити усі власні файли на github.com.
 
-
+Посилання на документ звіту на Google Drive:https://drive.google.com/file/d/1RoNy902xPWcWEZ8dQ5HkFJ1ThI9xPZtz/view?usp=sharing
