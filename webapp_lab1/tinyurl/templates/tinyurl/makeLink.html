@@ -1,0 +1,29 @@
+{% extends "tinyurl/base.html" %}
+
+{% block title %}Home{% endblock %}
+{% load crispy_forms_tags %}
+{% block content %}
+<style>
+    .asteriskField, .requiredField {
+        display: none;
+    }
+</style>
+<div class="container" style="padding-top: 1.5rem;">
+    <form method="post">
+        {% csrf_token %}
+        <p class="h5">Destination URL</p>
+        {{ form|crispy}}
+        <button type="submit" class="btn  btn-dark btn-lg" style="margin-top:1em;">Create tinyURL</button>
+        {% if form.instance.src.strip %}
+        <script>
+            window.history.pushState(null, "");
+        </script>
+        <div class="alert alert-success" role="alert" style="margin-top: .5rem;">
+            TinyURL was created successfully:
+             <a href="{{ request.scheme }}://{{ request.get_host }}{% url 'redirect' key=form.instance.src %}" 
+             class="alert-link">{{ request.scheme }}://{{ request.get_host }}{% url 'redirect' key=form.instance.src %}</a>.
+        </div>
+        {% endif %}
+    </form>
+</div>
+{% endblock %}
