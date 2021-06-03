@@ -8,5 +8,5 @@
 2.	За бажанням студента доповнити сайт іншими функціями.
 3.	Підготувати звіт, створити репозиторій та завантажити усі власні файли на github.com.
 
-
+Посилання на документ звіту на Google Drive: https://drive.google.com/file/d/1tmmRTblwSyBKmNt1CKmXcPHm4Rw0IxKn/view?usp=sharing
 
