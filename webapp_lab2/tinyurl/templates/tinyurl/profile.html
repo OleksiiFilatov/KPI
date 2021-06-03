@@ -1,0 +1,31 @@
+{% extends "tinyurl/base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<div class="container" style="margin-top:1rem;">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Profile</h4>
+            <table class="table">
+            <tr>
+                <td>Username</td>
+                <td>{{ user.username }}</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>{{ user.email }}</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>{{ user.profile.get_gender_display }}</td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td>{{ user.profile.date_of_birth }}</td>
+            </tr>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
