@@ -1,0 +1,11 @@
+{% extends "tinyurl/base.html" %}
+
+{% block title %}Home{% endblock %}
+{% load static %}
+{% block content %}
+<div class="text-center">
+    <img src="{% static 'tinyurl/logo.png' %}" class="rounded" alt="Logo" style="width:300px; padding-top: 4em;
+    height:auto;">
+    <p class="lead">TinyURL is the URL shortener that shortens your unwieldly links<br> into more manageable and useable URLs</p>
+</div>
+{% endblock %}
