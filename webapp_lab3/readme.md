@@ -10,7 +10,7 @@
 2.	Налаштувати виконання у окремих чергах (одна - email, друга - довготривалі операції)
 3.	Підготувати звіт, створити репозиторій та завантажити усі власні файли на github.com.
 
-Посилання на документ звіту на Google Drive: https://drive.google.com/file/d1yr9F9-GmO6o-4-oGJY1G0STIqQG4pQjI/view?usp=sharing
+Посилання на документ звіту на Google Drive: https://drive.google.com/file/d/19rWkLYGuh0zpVjGiSlqE38AAJWutf2jJ/view?usp=sharing
 
 
 
